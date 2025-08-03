@@ -20,8 +20,8 @@ req.on('end',()=>{
             <a href="/calculator">Go back to Calculator</a>
         </body>
     </html>`);
-    res.end();
-    
+   return res.end();
+
 })
 }
 
